@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>minji kim</title>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --bg: #fdfdfb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  main {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+  p { margin: 0 0 1.2em; }
+  a {
+    color: var(--text);
+    text-underline-offset: 3px;
+  }
+  a:hover { color: var(--muted); }
+  blockquote {
+    margin: 1.6em 0;
+    padding-left: 1em;
+    border-left: 2px solid #d8d8d2;
+    color: var(--muted);
+    font-style: italic;
+  }
+  blockquote cite {
+    display: block;
+    margin-top: 0.4em;
+    font-style: normal;
+    font-size: 0.85em;
+  }
+  .photos {
+    display: flex;
+    gap: 8px;
+    margin: 2.5em 0;
+  }
+  .photos .ph {
+    flex: 1;
+    aspect-ratio: 4 / 5;
+    background: #e9e9e3;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .photos img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .photos .ph.ski img { object-position: 68% center; }
+  .links {
+    margin-top: 3em;
+    font-size: 0.95em;
+  }
+  .links a { margin-right: 1.2em; }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    main { padding-top: 48px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p>my name is minji. i spend my vacations above the treeline, with a heavy pack and no cell service.</p>
+
+  <p>i take type 2+ fun vacations on purpose. not because suffering is noble, but because a week of cold hands, thin air, and route-finding mistakes does something a beach cannot: it makes the world simple again. eat, move, don't fall. everything else gets quiet.</p>
+
+  <blockquote>
+    "if you don't experience real physical fear from time to time, your mind will create fears out of nothing."
+    <cite>an alex honnold idea i keep coming back to. people in a climate-controlled airport, surrounded by food and comfort and zero physical danger, will still panic over a security line. i think he's right. without real stakes once in a while, we make mountains out of molehills. a small, managed dose of actual danger is the most reliable off switch i've found for a noisy mind.</cite>
+  </blockquote>
+
+  <p>last week i came down from seven days of alpine climbing in the bugaboos. no cell service, no news, just a week of pure vertical movement. when you step off the wall onto flat ground, there is a specific relief: the dangerous part is over. an hour into the drive back to the airport, i witnessed a fatal car accident. it was the first time i had seen death that close. one driver was already gone. the other, still alive in a flipped truck, did not survive. and we were on a road with no signal for a 105 km stretch, so people stood at the roadside trying iphone satellite sos and anything else to reach 911. all that technology, and we were helpless. it was the most dystopian scene i have ever been part of.</p>
+
+  <p>most people call the mountains the dangerous part and the drive home the safe part. that inversion has never sat right with me. the truth is, nothing feels more life-threatening than my commute on a 20-lane highway, with the most reckless driving i have seen anywhere in my life. the line between danger and safety is real, but it doesn't run where we draw it. spending my vacations in the places that make life feel most vivid is the right way for me.</p>
+
+  <p>it started with trail running and ultralight backpacking. then i became a patagonia brand ambassador, and spent time learning the other athletes' sports alongside them. that's how i found climbing, and ever since, everything horizontal became vertical.</p>
+
+  <p>my favorite genre is multi-pitch trad. outside of ice climbing, i think it carries the most moving parts of any climbing discipline: the widest range of scenarios, stacked hundreds of meters off the ground. every pitch is a fresh set of problems: gear placements, anchor decisions, weather windows, bailing options. in the bugaboos we got to the hut at midnight after a full day of july snowstorm shenanigans, and met a couple coming off a bailed attempt. both climb 5.14, which is to say, very strong, but retreating from mid-route had taken them 13 hours. they were more beat than we were. your climbing grades don't protect you from the mountain's logistics. that's exactly why it's so addictive: nothing else demands that much of my judgment, focus, and self-trust at once. i'm someone who needs intellectual stimulation, and the ambiguity of an unknown route, the constant problem solving, fills that need outside of work.</p>
+
+  <p>in winter i ski in the backcountry. every season brings tragic news of professional skiers killed in avalanches, but reading it doesn't stop me from going back to the mountain range. i'm even building a tool that maps where powder is most likely to hold on a given slope. the simple back and forth of putting one foot in front of the other, reaching the summit, and being rewarded with an untouched powder run is, for me, the best way to reset the brain and focus on the fundamentals of life. i don't know how long this will last. for now, it's essential.</p>
+
+  <p>the mountains also gave me my people. rope partners, strangers sharing a hut at midnight, friends who read the same avalanche forecast before agreeing to go. nothing builds trust faster than navigating the unknown together, and nobody stays chill in a stormy alpine whiteout by accident. that's what i look for everywhere: people who meet ambiguity with a plan, and a sense of humor. if that sounds like you, email me. i'm always looking for partners for the next adventure.</p>
+
+  <!-- photos sit next to this file. the ski photo is landscape; css crops it
+       to 4:5 centered on the skier (adjust the 68% in .ph.ski above if needed). -->
+  <div class="photos">
+    <div class="ph"><img src="climb.jpg" alt="crack climbing on a multi-pitch route"></div>
+    <div class="ph"><img src="spire.JPG" alt="climber below a granite spire in the bugaboos"></div>
+    <div class="ph ski"><img src="ski.jpg" alt="ski touring on a sunny alpine slope"></div>
+  </div>
+
+  <p class="links">
+    <a href="mailto:minji391@gmail.com">email</a>
+    <a href="https://www.instagram.com/minjkimm">instagram</a>
+    <a href="https://www.strava.com/athletes/15565635">strava</a>
+  </p>
+</main>
+</body>
+</html>
