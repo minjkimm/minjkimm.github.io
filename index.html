@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>minji kim</title>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --bg: #fdfdfb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  main {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+  p { margin: 0 0 1.2em; }
+  a {
+    color: var(--text);
+    text-underline-offset: 3px;
+  }
+  a:hover { color: var(--muted); }
+  blockquote {
+    margin: 1.6em 0;
+    padding-left: 1em;
+    border-left: 2px solid #d8d8d2;
+    color: var(--muted);
+    font-style: italic;
+  }
+  blockquote cite {
+    display: block;
+    margin-top: 0.4em;
+    font-style: normal;
+    font-size: 0.85em;
+  }
+  .photos {
+    display: flex;
+    gap: 8px;
+    margin: 2.5em 0;
+    width: min(92vw, 880px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .photos .ph {
+    flex: 1;
+    aspect-ratio: 4 / 5;
+    background: #e9e9e3;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .photos img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .photos .ph.ski img { object-position: 68% center; }
+  img { filter: grayscale(100%); transition: filter .3s; }
+  img:hover { filter: none; }
+  .links {
+    margin-top: 3em;
+    font-size: 0.95em;
+  }
+  .links a { margin-right: 1.2em; }
+  @media (max-width: 640px) {
+    body { font-size: 16px; }
+    main { padding-top: 48px; }
+    .photos {
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+      left: 0;
+      transform: none;
+    }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p>my name is minji. i spend my vacations above the treeline, with a heavy pack and no cell service.</p>
+
+  <p>i take type 2+ fun vacations on purpose. a week of cold hands, thin air, and route-finding mistakes, and the world becomes simple again. eat, move, don't fall. everything else gets quiet.</p>
+
+  <blockquote>
+    "if you don't experience real physical fear from time to time, your mind will create fears out of nothing."
+    <cite>an alex honnold idea i keep coming back to. without real stakes once in a while, we make mountains out of molehills. a small, managed dose of actual danger is the most reliable off switch i've found for a noisy mind.</cite>
+  </blockquote>
+
+  <p>last week i came down from seven days of alpine climbing in the bugaboos, a week of pure vertical movement. when you step off the wall, there is a specific relief that the dangerous part is over. an hour into the drive back to the airport, i witnessed a fatal car accident. it was the first time i had seen death that close. on a road with no signal for a 105 km stretch, people stood at the roadside trying iphone satellite sos to reach 911. all that technology, and we were helpless. it was the most dystopian scene i've ever experienced.</p>
+
+  <p>most people call the mountains the dangerous part and the drive home the safe part. spending my vacations in the places that make life feel most vivid is the right way for me.</p>
+
+  <p>it started with trail running and ultralight backpacking. then i became a patagonia brand ambassador, learned the other athletes' sports alongside them, and every horizontal movement became vertical. my favorite genre is multi-pitch trad, which i think has the most moving parts in climbing, stacked hundreds of meters off the ground. in the bugaboos we met a couple who both climb 5.14. just bailing from mid-route had taken them 13 hours. grades don't protect you from the mountain's logistics, and nothing else demands that much judgment, focus, and self-trust at once.</p>
+
+  <p>in winter i ski in the backcountry, even with the avalanche news and all. one foot in front of the other to the summit, then an untouched run down. it's the best reset i know. i don't know how long this will last. for now, it's essential.</p>
+
+  <p>i look for people who deal with ambiguity by making a plan and keeping their sense of humor. if that sounds like you, email me. i'm always looking for partners for the next adventure, on and off the mountains.</p>
+
+  <div class="photos">
+    <div class="ph"><img src="climb.jpg" alt="crack climbing on a multi-pitch route"></div>
+    <div class="ph"><img src="spire.JPG" alt="climber below a granite spire in the bugaboos"></div>
+    <div class="ph ski"><img src="ski.jpg" alt="ski touring on a sunny alpine slope"></div>
+  </div>
+
+  <p class="links">
+    <a href="mailto:minji391@gmail.com">email</a>
+    <a href="https://www.instagram.com/minjkimm">instagram</a>
+    <a href="https://www.strava.com/athletes/15565635">strava</a>
+  </p>
+</main>
+</body>
+</html>
